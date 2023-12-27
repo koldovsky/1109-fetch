@@ -1,0 +1,16 @@
+.products-carousel__container {
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    min-height: 400px;
+}
+
+.products-carousel img {
+    max-width: 400px;
+}
+
+.products-carousel__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
